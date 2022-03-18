@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Counter</title>
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            padding: 1em 0 0 1em;
+        }
+
+        button {
+            width: 2em;
+            font-weight: bolder;
+            font-size: 2em;
+        }
+
+        div {
+            margin: auto;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="angka">0</h1>
+        <button id="tambah" onclick="tambah()">+</button>
+        <button id="kurang" onclick="kurang()">-</button>
+        <button type="reset" id="reset" onclick="reset()">R</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
